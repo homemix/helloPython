@@ -17,3 +17,17 @@ print(str[0])
 print(str[2:5])
 print(str[2:])
 print(str * 2)
+
+""" Lists"""
+print(" ++++++++++++++++++")
+print("PYTHON LISTS \n")
+list = ['mango', 'guava', 'avocado', '23', 'kennedy']
+print(list)
+print(list[-1])
+list.append(1)
+print(list)
+
+for x in list:
+    print(x)
+
+
