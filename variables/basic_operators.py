@@ -33,20 +33,53 @@ for x in list:
 """ Tuples"""
 print(" ++++++++++++++++++")
 print("PYTHON TUPLES \n")
-tuple =('ken',455,'joy','emmah',67)
+tuple = ('ken', 455, 'joy', 'emmah', 67)
 print(tuple)
-#tuple[0]='kennedy'
+# tuple[0]='kennedy'
 
 """ Dictionary"""
 print(" ++++++++++++++++++")
 print("PYTHON DICTIONARY \n")
 dict = {}
-dict['name']= 'kennedy'
-dict['age']='37'
-dict['class']='python'
+dict['name'] = 'kennedy'
+dict['age'] = '37'
+dict['class'] = 'python'
 print(dict)
 print(dict.keys())
 print(dict.values())
-dict['age']=56
+dict['age'] = 56
 print(dict)
+
+""" Basic Operators"""
+print(" ++++++++++++++++++\n")
+print("PYTHON OPERATORS ")
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is not z)
+print(x is y)
+print(x is z)
+
+""" Membership operators (in, not in)"""
+print("banana" in x)
+
+""" Core data types"""
+print(" ++++++++++++++++++\n")
+print("PYTHON CORE OPERATORS ")
+
+f = open('data.txt', 'w')
+f.write("hello python\n")
+
+f.close()
+
+# sets
+thisest = {"apple","banana","cherry"}
+print(thisest)
+names=["kennedy","ken","judy","faith"]
+newset= set(names)
+print(newset)
+
+# Numbers
+a= 5
+print(a,"is of type",type(a))
 
