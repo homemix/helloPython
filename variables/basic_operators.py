@@ -30,4 +30,7 @@ print(list)
 for x in list:
     print(x)
 
+""" Tuples"""
+print(" ++++++++++++++++++")
+print("PYTHON TUPLES \n")
 
