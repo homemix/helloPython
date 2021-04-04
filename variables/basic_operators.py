@@ -33,4 +33,20 @@ for x in list:
 """ Tuples"""
 print(" ++++++++++++++++++")
 print("PYTHON TUPLES \n")
+tuple =('ken',455,'joy','emmah',67)
+print(tuple)
+#tuple[0]='kennedy'
+
+""" Dictionary"""
+print(" ++++++++++++++++++")
+print("PYTHON DICTIONARY \n")
+dict = {}
+dict['name']= 'kennedy'
+dict['age']='37'
+dict['class']='python'
+print(dict)
+print(dict.keys())
+print(dict.values())
+dict['age']=56
+print(dict)
 
