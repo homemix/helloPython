@@ -64,7 +64,7 @@ option = (input())
 if option == 'Q':
     close_program()
 print("Enter the value")
-values = int(input())
+values = float(input())
 
 if option == 'F' or option == 'C':
     print(temperature(option, values))
