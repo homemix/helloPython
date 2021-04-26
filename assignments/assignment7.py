@@ -3,7 +3,7 @@ import json
 import pickle
 from os import path
 
-filename = "contacts/contacts.txt"
+filename = "contacts.txt"
 
 contacts = []
 
